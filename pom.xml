@@ -16,7 +16,9 @@
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
     </properties>
 
+    <!--私服地址-->
 
+    <dependencies>
 
         <!-- 小实战项目的公共依赖 -->
         <dependency>
