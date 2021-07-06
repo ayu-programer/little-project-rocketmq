@@ -1,13 +1,12 @@
 package com.hm.little.project.rocketmq.api.coupon.listener;
 
 import com.alibaba.fastjson.JSON;
+import com.hm.little.project.rocketmq.api.coupon.dto.FirstLoginMessageDTO;
+import com.hm.little.project.rocketmq.api.coupon.service.CouponService;
 import com.ruyuan.little.project.common.dto.CommonResponse;
 import com.ruyuan.little.project.common.enums.ErrorCodeEnum;
 import com.ruyuan.little.project.common.enums.LittleProjectTypeEnum;
-import com.ruyuan.little.project.redis.api.RedisApi;
-import com.ruyuan.little.project.rocketmq.api.coupon.dto.FirstLoginMessageDTO;
-import com.ruyuan.little.project.rocketmq.api.coupon.service.CouponService;
-import com.ruyuan.little.project.rocketmq.common.constant.RedisKeyConstant;
+
 import org.apache.dubbo.config.annotation.Reference;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;

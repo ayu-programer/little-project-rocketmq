@@ -1,4 +1,4 @@
-package com.hm.little.project.rocketmq.api.utils;
+package com.hm.little.project.rocketmq.api.common.utils;
 
 import org.apache.commons.lang3.time.DateUtils;
 
