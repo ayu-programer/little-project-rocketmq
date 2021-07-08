@@ -1,7 +1,6 @@
 package com.hm.little.project.rocketmq.api.hotel.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.hm.little.project.rocketmq.api.hotel.dto.HotelRoom;
 import com.ruyuan.little.project.rocketmq.api.hotel.dto.HotelRoom;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
